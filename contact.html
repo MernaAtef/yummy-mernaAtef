@@ -1,0 +1,156 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <section class="bg-black  pt-5">
+        <div id="loading"> 
+            <i class="fa fa-spinner fa-spin fa-5x text-white"></i>
+          </div> 
+        <div class="options d-flex   top-0 bottom-0 start-0 position-fixed">
+            
+            <div class="nav-menu   pt-4">
+                <div class="collapse navbar-collapse pe-5 ps-3 me-5" id="navbarNav">
+                    <ul class="navbar-nav pe-5">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="searchPage.html"target="_self">Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href="categoryPage.html" target="_self">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href="areaPage.html" target="_self">Area</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ingredients.html">Ingredients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+          <div class="icon-side position-absolute p-1 text-muted">
+                <a><i class="fab fa-facebook-f p-1"></i></a>
+                <a><i class="fab fa-twitter p-1"></i></a>
+                <a><i class="fas fa-globe p-1"></i></a>
+                <div class="text-side ">
+                    <span>Copyright Â© 2019 All Rights<br> Reserved.</span>
+                </div>
+            </div>  </div>
+            
+        
+        <div class="nav-yummy  top-0 bottom-0  ">
+            <nav class="navbar d-block bg-white h-100">
+                <div class="d-inline-block">
+                    <div class="container-fluid ">
+                        <div class=" w-100 p-yummy">
+                            <img src="images/logo.png" alt="" class="yummy mb-4">
+                        </div>
+                        <div class="">
+                            <button class="navbar-toggler border-0 " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation" id="navBtn">
+                                <span class="navbar-toggler-icon"></span>
+                                
+                            </button>
+                        </div><i class="fa-solid fa-xmark  p-4 fa-2x ico "></i>
+                        <div class="iconNav ms-4  bg-warning ">
+                            <div class="position-absolute bottom-0 mb-2">
+
+                                <div class=" ">
+                                    <i class="fas fa-globe mb-2"></i>
+                                </div>
+
+                                <div class="mb-3 ">
+                                    <i class="fas fa-share-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+
+    </div>
+        <div class="container high w-50">
+
+            <h2 class="text-light text-center mb-5">ContacUs...</h2>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        <input class="form-control shadow  text-center"  id="namee"
+                            placeholder="Enter Your Name">
+                        <div class="alert mt-1 alert-danger d-none" id="namealert" role="alert">
+                            Special Characters and Numbers not allowed
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        <input  class="form-control text-center shadow " id="email"
+                            placeholder="Enter Email">
+                        <div class="alert mt-1 alert-danger d-none" id="emailalert" role="alert">
+                            Enter valid email. *Ex: xxx@yyy.zzz
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        <input  class="form-control text-center shadow " id="phone"
+                            placeholder="Enter phone">
+                        <div class="alert mt-1 alert-danger  d-none" id="phonealert" role="alert">
+                            Enter valid Phone Number
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        <input  class="form-control text-center shadow " id="age"
+                            placeholder="Enter Age">
+                        <div class="alert mt-1 alert-danger  d-none" id="agealert" role="alert">
+                            Enter valid Age
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        <input  class="form-control text-center shadow " type="password"
+                            id="password" placeholder="Enter Password">
+                        <div class="alert mt-1 alert-danger  d-none" id="passwordalert" role="alert">
+                            Enter valid password *Minimum eight characters, at least one letter and one number:*
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        <input  class="form-control text-center shadow " type="password"
+                            id="rePassword" placeholder="Enter RePassword">
+                        <div class="alert mt-1 alert-danger  d-none" id="repasswordalert" role="alert">
+                            Enter valid Repassword
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="text-center">
+                <button type="submit" disabled="" id="submitBtn" class="btn btn-outline-danger">Submit</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>
